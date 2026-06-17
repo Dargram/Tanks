@@ -8,11 +8,6 @@ FPS = pygame.time.Clock()
 
 pygame.init()
 
-sound = pygame.mixer.music.load('sounds/back_music.wav')
-sound = pygame.mixer.music.play()
-sound = pygame.mixer.music.set_volume(0.1)
-
-
 background = pygame.image.load(os.path.join(path, 'images/background.png'))
 background = pygame.transform.scale(background, (width, width))
 
